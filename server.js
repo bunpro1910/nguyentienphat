@@ -78,9 +78,9 @@ app.get('/contact.html',(req,res)=>{
 app.get('/checkout.html',(req,res)=>{
     res.render(path.join(__dirname,"checkout.html"),{})
 })
-app.get('/cart.html',(req,res)=>{
-    res.render(path.join(__dirname,"cart.html"),{})
-})
+// app.get('/cart.html',(req,res)=>{
+//     res.render(path.join(__dirname,"cart.html"),{})
+// })
 app.get('/services.html',(req,res)=>{
     res.render(path.join(__dirname,"services.html"),{})
 })
