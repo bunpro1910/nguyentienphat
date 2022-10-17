@@ -1,36 +1,15 @@
+
 {
   "name": "nguyentienphat",
   "version": "1.0.0",
-  "description": "Template Name: Furni Template Author: Untree.co Template License: https://creativecommons.org/licenses/by/3.0/ Author URI: https://untree.co/",
-  "main": "server.js",
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bunpro1910/nguyentienphat.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/bunpro1910/nguyentienphat/issues"
-  },
-  "homepage": "https://github.com/bunpro1910/nguyentienphat#readme"
-}
-
-{
-  "name": "GCS0805B",
-  "version": "1.0.0",
-  "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node --experimental-modules --experimental-json-modules server.mjs"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gokuhieu/GCS0805B.git"
+    "url": "git+https://github.com/gokuhieu/nguyentienphat.git"
   },
   "dependencies": {
     "@discordjs/builders": "^0.12.0",
@@ -62,9 +41,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gokuhieu/GCS0805B/issues"
+    "url": "https://github.com/bunpro1910/nguyentienphat/issues"
   },
-  "homepage": "https://github.com/gokuhieu/GCS0805B#readme",
+  "homepage": "https://github.com/bunpro1910/nguyentienphat#readme",
   "description": ""
 }
 
