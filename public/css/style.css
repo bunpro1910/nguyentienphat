@@ -689,7 +689,9 @@ textarea {
 .site-block-order-table th {
   border-top: none !important;
   border-bottom-width: 1px !important; }
-
+.contact{
+  list-style: none;
+}
 .site-block-order-table td, .site-block-order-table th {
   color: #000000; }
 
