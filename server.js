@@ -60,7 +60,30 @@ app.use(function (req, res, next) {
 app.get('/',(req,res)=>{
      res.render(path.join(__dirname,"index.html"),{})
 })
-
+app.get('/shop',(req,res)=>{
+    res.render(path.join(__dirname,"shop.html"),{})
+})
+app.get('/about',(req,res)=>{
+    res.render(path.join(__dirname,"about.html"),{})
+})
+app.get('/blog',(req,res)=>{
+    res.render(path.join(__dirname,"blog.html"),{})
+})
+app.get('/contact',(req,res)=>{
+    res.render(path.join(__dirname,"contact.html"),{})
+})
+app.get('/checkout',(req,res)=>{
+    res.render(path.join(__dirname,"checkout.html"),{})
+})
+app.get('/cart',(req,res)=>{
+    res.render(path.join(__dirname,"cart.html"),{})
+})
+app.get('/services',(req,res)=>{
+    res.render(path.join(__dirname,"services.html"),{})
+})
+app.get('/thankyou',(req,res)=>{
+    res.render(path.join(__dirname,"thankyou.html"),{})
+})
 app.listen(port, () => {
     console.log(`Application started and Listening on port ${port}`);
 });
