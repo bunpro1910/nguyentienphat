@@ -118,7 +118,7 @@ a {
       .hero h1 {
         font-size: 54px; } }
   .hero p {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 1);
     margin-botom: 30px; }
   .hero .hero-img-wrap {
     position: relative; }
@@ -310,9 +310,7 @@ a {
     font-size: 14px;
     line-height: 22px;
     color: #6a6a6a; }
-.mb-4{
-  color:rgba(0,0,0,1) !important;
-}
+
 .we-help-section {
   padding: 7rem 0; }
   .we-help-section .imgs-grid {
