@@ -310,7 +310,9 @@ a {
     font-size: 14px;
     line-height: 22px;
     color: #6a6a6a; }
-
+.mb-4{
+  color:rgba(0,0,0,1) !important;
+}
 .we-help-section {
   padding: 7rem 0; }
   .we-help-section .imgs-grid {
