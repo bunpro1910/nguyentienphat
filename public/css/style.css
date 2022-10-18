@@ -106,7 +106,7 @@ a {
    }
   @media (min-width: 768px) {
     .hero {
-      padding: (4rem - 30px) 0 4rem 0; } }
+      padding: 100px 0 4rem 0; } }
   @media (min-width: 992px) {
     .hero {
       padding: 200px 0 8rem 0; } }
