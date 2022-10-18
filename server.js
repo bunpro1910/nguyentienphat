@@ -60,31 +60,31 @@ app.use(function (req, res, next) {
 app.get('/',(req,res)=>{
      res.render(path.join(__dirname,"index.html"),{})
 })
-app.get('/index.html',(req,res)=>{
+app.get('/index',(req,res)=>{
     res.render(path.join(__dirname,"index.html"),{})
 })
-app.get('/shop.html',(req,res)=>{
+app.get('/shop',(req,res)=>{
     res.render(path.join(__dirname,"shop.html"),{})
 })
-app.get('/about.html',(req,res)=>{
+app.get('/about',(req,res)=>{
     res.render(path.join(__dirname,"about.html"),{})
 })
-app.get('/blog.html',(req,res)=>{
+app.get('/blog',(req,res)=>{
     res.render(path.join(__dirname,"blog.html"),{})
 })
-app.get('/contact.html',(req,res)=>{
+app.get('/contact',(req,res)=>{
     res.render(path.join(__dirname,"contact.html"),{})
 })
-app.get('/checkout.html',(req,res)=>{
+app.get('/checkout',(req,res)=>{
     res.render(path.join(__dirname,"checkout.html"),{})
 })
 // app.get('/cart.html',(req,res)=>{
 //     res.render(path.join(__dirname,"cart.html"),{})
 // })
-app.get('/services.html',(req,res)=>{
+app.get('/services',(req,res)=>{
     res.render(path.join(__dirname,"services.html"),{})
 })
-app.get('/thankyou.html',(req,res)=>{
+app.get('/thankyou',(req,res)=>{
     res.render(path.join(__dirname,"thankyou.html"),{})
 })
 app.listen(port, () => {
