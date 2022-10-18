@@ -33,7 +33,12 @@ a {
 .custom-navbar {
   background: #faa44b !important;
   padding-top: 20px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999}
   .custom-navbar .navbar-brand {
     font-size: 32px;
     font-weight: 600; }
